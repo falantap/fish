@@ -5,6 +5,8 @@ There are 2 programs in this repository
 -Auth which is JWT Program using non persistent registry for user implemented in GoLang
 
 -Fetching which is a program that calling HTTP request and manipulating JSON response as desired with some JWT Authentication, implemented in NodeJs Express Server
+
+(Tested on Windows)
 ## Installation
 
 Clone with HTTPS
@@ -20,21 +22,21 @@ Auth, install [GO](https://golang.org/doc/install)
 Configure Server Port for Fetching Program
 
 ```bash
-nodejs/fetching/startup_port.json
+nodejs\fetching\startup_port.json
 ```
 Configure Server Port for Auth Program
 
 ```bash
-go/src/go-auth/server_url.txt
+go\src\go-auth\server_url.txt
 ```
 
 Fetching Server Startup Command
 ```python
-nodejs/fetching/node index.js
+nodejs\fetching\node index.js
 ```
 Auth Server Startup Command
 ```python
-go/src/go-auth/go run main.go
+go\src\go-auth\go run main.go
 ```
 ## Usage
 Fetching Endpoint, Documentation click [Here](https://documenter.getpostman.com/view/9400071/SzzheyHA)
