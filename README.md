@@ -37,14 +37,14 @@ Auth Server Startup Command
 go/src/go-auth/go run main.go
 ```
 ## Usage
-Fetching Endpoint
+Fetching Endpoint, Documentation click [Here](https://documenter.getpostman.com/view/9400071/SzzheyHA)
 ```python
 /jwt
 /fetch
 /privateClaims
 /aggregate
 ```
-Auth
+Auth Endpoing, Documentation click [Here](https://documenter.getpostman.com/view/9400071/SzzheyHB)
 ```python
 /auth/register
 /auth/getData
