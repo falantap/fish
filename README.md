@@ -25,11 +25,11 @@ go/src/go-auth/server_url.txt
 ```
 
 ## Running The Program
-Fetching
+Fetching, install [nodejs](https://nodejs.org/en/download/)
 ```python
 nodejs/fetching/node index.js
 ```
-Auth
+Auth, install [GO](https://golang.org/doc/install)
 ```python
 go/src/go-auth/go run main.go
 ```
