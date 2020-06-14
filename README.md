@@ -12,7 +12,11 @@ Clone with HTTPS
 ```bash
 git clone https://github.com/falantap/fish.git
 ```
+Fetching, install [nodejs](https://nodejs.org/en/download/)
 
+Auth, install [GO](https://golang.org/doc/install)
+
+## Running The Program
 Configure Server Port for Fetching Program
 
 ```bash
@@ -24,12 +28,11 @@ Configure Server Port for Auth Program
 go/src/go-auth/server_url.txt
 ```
 
-## Running The Program
-Fetching, install [nodejs](https://nodejs.org/en/download/)
+Fetching Server Startup Command
 ```python
 nodejs/fetching/node index.js
 ```
-Auth, install [GO](https://golang.org/doc/install)
+Auth Server Startup Command
 ```python
 go/src/go-auth/go run main.go
 ```
